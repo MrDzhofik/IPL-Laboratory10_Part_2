@@ -1,7 +1,0 @@
-<h1>Страница ввода N</h1>
-<%= form_tag("/calc/view", :method => "get") do %>
-<%= label_tag("Введите число n:") %>
-<%= number_field_tag(:less_than_number, nil, min: 1) %> <br/>
-<br/>
-<%= submit_tag("Find palindroms") %>
-<% end %>
